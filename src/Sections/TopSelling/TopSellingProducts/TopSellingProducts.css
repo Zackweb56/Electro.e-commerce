@@ -1,0 +1,26 @@
+.direction-column{
+    flex-direction: column;
+}
+.imgTopselling{
+    width: 35%;
+}
+.imgTopselling img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.description span{
+    font-size: 12px;
+    color: var(--color-Gray);
+}
+.description h5{
+    font-size: 17px;
+    margin: 0;
+}
+.description p{
+    color: var(--color-primary);
+}
+.description p span{
+    color: var(--color-Gray);
+    text-decoration: line-through;
+}

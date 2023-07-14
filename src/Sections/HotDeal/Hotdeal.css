@@ -1,0 +1,12 @@
+.bgc{
+    background-color: var(--color-header);
+}
+
+.infos{
+    margin-left: -80px;
+    /* margin-right: 40px; */
+}
+
+.promo{
+    color: var(--color-Gray);
+}

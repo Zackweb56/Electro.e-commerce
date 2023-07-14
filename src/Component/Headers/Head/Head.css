@@ -1,0 +1,26 @@
+.Head{
+    background-color: var(--color-dark);
+}
+
+.Head-links1,
+.Head-links2{
+    display: flex;
+    /* padding: var(--padding-x); */
+}
+.Head-links1 a,
+.Head-links2 a{
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-right: calc(var(--margin) / 4);
+    transition: .5s ease;
+    text-decoration: none;
+    color: var(--color-light);
+}
+.Head-links1 a:hover,
+.Head-links2 a:hover{
+    color: var(--color-primary);
+}
+.Head-icon{
+    color: var(--color-primary);
+}

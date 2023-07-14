@@ -1,0 +1,64 @@
+.Header{
+    background-color: var(--color-darker);
+    border-bottom: 4px solid var(--color-primary);
+    padding: 12px 0;
+}
+.container{
+    flex-wrap: wrap;
+}
+.Header-logo a{
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 40px;
+    font-weight: 700;
+}
+.Header-logo a:hover{
+    color: var(--color-light);
+}
+.Header-logo a span{
+    color: var(--color-primary);
+}
+
+.Header-searchBar form .search{
+    width: 370px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.Header-searchBar form .btn{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+.heart,
+.cart{
+    position: relative;
+    color: var(--color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heart span,
+.cart span{
+    position: absolute;
+    top: 4px;
+    padding: 2px 8px;
+    border-radius: 50%;
+    font-size: 11px;
+    background-color: var(--color-primary);
+}
+.heart .icon,
+.cart .icon{
+    margin-top: 10px;
+}
+
+.heart p,
+.cart p{
+    font-size: 13px;
+    font-weight: 700;
+}

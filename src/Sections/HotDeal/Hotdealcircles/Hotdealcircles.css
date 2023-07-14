@@ -1,0 +1,10 @@
+
+.circle{
+    margin: 0 6px;
+    color: var(--color-light);
+    border-radius: 50%;
+    padding: 35px 12px;
+    /* width: 135px;
+    height: 135px; */
+    background-color: var(--color-primary);
+}

@@ -1,0 +1,31 @@
+.Newsletteremail{
+    margin: 2.5% 310px;
+}
+.email{
+    z-index: 1;
+}
+.envelope{
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    color: #efefef;
+    font-size: 140px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+.Newsletter{
+    position: relative;
+    border-top: 3px solid #efefef;
+}
+.socialicon{
+    border: 1px solid #efefef;
+    padding: 8px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.socialicon:hover{
+    background-color: #efefef;
+    color: var(--color-primary);
+}

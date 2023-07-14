@@ -1,0 +1,21 @@
+.bgc-darker{
+    background-color: var(--color-darker);
+}
+
+.bgc-dark{
+    background-color: var(--color-dark);
+    color: var(--color-darker);
+}
+
+.footer{
+    border-top: 4px solid var(--color-primary);
+}
+
+.footerlinks a{
+    font-size: 14px;
+    margin: 0;
+    color: var(--color-Gray);
+}
+.aboutus{
+    color: var(--color-Gray);
+}

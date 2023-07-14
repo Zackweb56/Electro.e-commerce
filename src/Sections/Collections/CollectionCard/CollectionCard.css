@@ -1,0 +1,45 @@
+.cardCollection{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.cardCollection::after{
+    content: '';
+    position: absolute;
+    background-color: var(--color-primary);
+    width: 120%;
+    height: 120%;
+    top: -110px;
+    transform: rotate(-45deg);
+    left: -110px;
+    opacity: 0.9;
+    z-index: 1;
+}
+.cardCollection img{
+    object-fit: cover;
+    width: 380px;
+    height: 232px;
+    transition: .5s ease;
+}
+.cardCollection img:hover{
+    transform: scale(1.1);
+}
+
+.cardCollection h4,
+.cardCollection a{
+    width: 150px;
+    z-index: 10;
+    color: var(--color-light);
+    position: absolute;
+    top: 15px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.cardCollection a{
+    top: 90px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.cardCollection a:hover{
+    color: var(--color-light);
+}
